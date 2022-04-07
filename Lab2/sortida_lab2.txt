@@ -1,0 +1,232 @@
+La informació del contenidor és:
+{
+    "Id": "fcb5c3a069bc715b23347cf9f694905f6099dc7104e490b4ac2cc697e6c43996",
+    "Created": "2022-03-18T12:38:54.20913581Z",
+    "Path": "httpd-foreground",
+    "Args": [],
+    "State": {
+        "Status": "running",
+        "Running": true,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 1723,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2022-03-18T12:38:55.330533574Z",
+        "FinishedAt": "0001-01-01T00:00:00Z"
+    },
+    "Image": "sha256:d1c7a18bbf00b266094288675b0ff6fdf8b3cf1dd4bad2da7ea5fcc48f50fdda",
+    "ResolvConfPath": "/var/lib/docker/containers/fcb5c3a069bc715b23347cf9f694905f6099dc7104e490b4ac2cc697e6c43996/resolv.conf",
+    "HostnamePath": "/var/lib/docker/containers/fcb5c3a069bc715b23347cf9f694905f6099dc7104e490b4ac2cc697e6c43996/hostname",
+    "HostsPath": "/var/lib/docker/containers/fcb5c3a069bc715b23347cf9f694905f6099dc7104e490b4ac2cc697e6c43996/hosts",
+    "LogPath": "/var/lib/docker/containers/fcb5c3a069bc715b23347cf9f694905f6099dc7104e490b4ac2cc697e6c43996/fcb5c3a069bc715b23347cf9f694905f6099dc7104e490b4ac2cc697e6c43996-json.log",
+    "Name": "/servei-web",
+    "RestartCount": 0,
+    "Driver": "overlay2",
+    "Platform": "linux",
+    "MountLabel": "",
+    "ProcessLabel": "",
+    "AppArmorProfile": "docker-default",
+    "ExecIDs": null,
+    "HostConfig": {
+        "Binds": null,
+        "ContainerIDFile": "",
+        "LogConfig": {
+            "Type": "json-file",
+            "Config": {}
+        },
+        "NetworkMode": "DMZ",
+        "PortBindings": {
+            "80/tcp": [
+                {
+                    "HostIp": "",
+                    "HostPort": "8080"
+                }
+            ]
+        },
+        "RestartPolicy": {
+            "Name": "no",
+            "MaximumRetryCount": 0
+        },
+        "AutoRemove": false,
+        "VolumeDriver": "",
+        "VolumesFrom": null,
+        "CapAdd": null,
+        "CapDrop": null,
+        "Capabilities": null,
+        "Dns": [],
+        "DnsOptions": [],
+        "DnsSearch": [],
+        "ExtraHosts": null,
+        "GroupAdd": null,
+        "IpcMode": "private",
+        "Cgroup": "",
+        "Links": null,
+        "OomScoreAdj": 0,
+        "PidMode": "",
+        "Privileged": false,
+        "PublishAllPorts": false,
+        "ReadonlyRootfs": false,
+        "SecurityOpt": null,
+        "UTSMode": "",
+        "UsernsMode": "",
+        "ShmSize": 67108864,
+        "Runtime": "runc",
+        "ConsoleSize": [
+            0,
+            0
+        ],
+        "Isolation": "",
+        "CpuShares": 0,
+        "Memory": 0,
+        "NanoCpus": 0,
+        "CgroupParent": "",
+        "BlkioWeight": 0,
+        "BlkioWeightDevice": [],
+        "BlkioDeviceReadBps": null,
+        "BlkioDeviceWriteBps": null,
+        "BlkioDeviceReadIOps": null,
+        "BlkioDeviceWriteIOps": null,
+        "CpuPeriod": 0,
+        "CpuQuota": 0,
+        "CpuRealtimePeriod": 0,
+        "CpuRealtimeRuntime": 0,
+        "CpusetCpus": "",
+        "CpusetMems": "",
+        "Devices": [],
+        "DeviceCgroupRules": null,
+        "DeviceRequests": null,
+        "KernelMemory": 0,
+        "KernelMemoryTCP": 0,
+        "MemoryReservation": 0,
+        "MemorySwap": 0,
+        "MemorySwappiness": null,
+        "OomKillDisable": false,
+        "PidsLimit": null,
+        "Ulimits": null,
+        "CpuCount": 0,
+        "CpuPercent": 0,
+        "IOMaximumIOps": 0,
+        "IOMaximumBandwidth": 0,
+        "MaskedPaths": [
+            "/proc/asound",
+            "/proc/acpi",
+            "/proc/kcore",
+            "/proc/keys",
+            "/proc/latency_stats",
+            "/proc/timer_list",
+            "/proc/timer_stats",
+            "/proc/sched_debug",
+            "/proc/scsi",
+            "/sys/firmware"
+        ],
+        "ReadonlyPaths": [
+            "/proc/bus",
+            "/proc/fs",
+            "/proc/irq",
+            "/proc/sys",
+            "/proc/sysrq-trigger"
+        ]
+    },
+    "GraphDriver": {
+        "Data": {
+            "LowerDir": "/var/lib/docker/overlay2/7176f6a8676dce90130708e36616596ad846cb5798ab488d16d0f7a8f6c5c622-init/diff:/var/lib/docker/overlay2/9dab5e91a99d8ac80bfa261e061a0835e99a60bcfbbe2cfe2060376e0e979522/diff:/var/lib/docker/overlay2/171556faa70efbab7115363a4210b90a74cf0d5477bdd5c91e1b03197627dd30/diff:/var/lib/docker/overlay2/bb0f2034d4d4b1b64eca58948c9e43f2d5324cfe757c58c6ec5210a6040d8891/diff:/var/lib/docker/overlay2/1fbeaa8931cd6460b9d229e40f58d74d3e2c4253278507e9f10fa4d180130f9a/diff:/var/lib/docker/overlay2/472d2ccd279f5efa8e8c7474391b29406ddad3ec7f309b44885495df3e453a32/diff:/var/lib/docker/overlay2/ad69793932a620a6efe3144e9c8d06c2a47b1b4fc21c1ad428c91c873693ad28/diff",
+            "MergedDir": "/var/lib/docker/overlay2/7176f6a8676dce90130708e36616596ad846cb5798ab488d16d0f7a8f6c5c622/merged",
+            "UpperDir": "/var/lib/docker/overlay2/7176f6a8676dce90130708e36616596ad846cb5798ab488d16d0f7a8f6c5c622/diff",
+            "WorkDir": "/var/lib/docker/overlay2/7176f6a8676dce90130708e36616596ad846cb5798ab488d16d0f7a8f6c5c622/work"
+        },
+        "Name": "overlay2"
+    },
+    "Mounts": [],
+    "Config": {
+        "Hostname": "fcb5c3a069bc",
+        "Domainname": "",
+        "User": "",
+        "AttachStdin": false,
+        "AttachStdout": false,
+        "AttachStderr": false,
+        "ExposedPorts": {
+            "80/tcp": {}
+        },
+        "Tty": false,
+        "OpenStdin": false,
+        "StdinOnce": false,
+        "Env": [
+            "PATH=/usr/local/apache2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "HTTPD_PREFIX=/usr/local/apache2",
+            "HTTPD_VERSION=2.4.53",
+            "HTTPD_SHA256=d0bbd1121a57b5f2a6ff92d7b96f8050c5a45d3f14db118f64979d525858db63",
+            "HTTPD_PATCHES="
+        ],
+        "Cmd": [
+            "httpd-foreground"
+        ],
+        "Image": "imatgeweb",
+        "Volumes": null,
+        "WorkingDir": "/usr/local/apache2",
+        "Entrypoint": null,
+        "OnBuild": null,
+        "Labels": {},
+        "StopSignal": "SIGWINCH"
+    },
+    "NetworkSettings": {
+        "Bridge": "",
+        "SandboxID": "74bb1e34f9f16452c54c5835b9a43cb04b987ddbca0c63013f636c15fdc7aae7",
+        "HairpinMode": false,
+        "LinkLocalIPv6Address": "",
+        "LinkLocalIPv6PrefixLen": 0,
+        "Ports": {
+            "80/tcp": [
+                {
+                    "HostIp": "0.0.0.0",
+                    "HostPort": "8080"
+                }
+            ]
+        },
+        "SandboxKey": "/var/run/docker/netns/74bb1e34f9f1",
+        "SecondaryIPAddresses": null,
+        "SecondaryIPv6Addresses": null,
+        "EndpointID": "",
+        "Gateway": "",
+        "GlobalIPv6Address": "",
+        "GlobalIPv6PrefixLen": 0,
+        "IPAddress": "",
+        "IPPrefixLen": 0,
+        "IPv6Gateway": "",
+        "MacAddress": "",
+        "Networks": {
+            "DMZ": {
+                "IPAMConfig": null,
+                "Links": null,
+                "Aliases": [
+                    "fcb5c3a069bc"
+                ],
+                "NetworkID": "38a0f38e1b75c526464f80fa213d25f7f87003291f6bd29e80b8b90e80f0687a",
+                "EndpointID": "7aecdf1dcf3310fc1666915e9f136af4f25bf929de56a24edad6a1973f32c3ec",
+                "Gateway": "172.22.2.1",
+                "IPAddress": "172.22.2.2",
+                "IPPrefixLen": 25,
+                "IPv6Gateway": "",
+                "GlobalIPv6Address": "",
+                "GlobalIPv6PrefixLen": 0,
+                "MacAddress": "02:42:ac:16:02:02",
+                "DriverOpts": null
+            }
+        }
+    }
+}
+
+Les networks i IPs son:
+DMZ 172.22.2.2
+
+La web normal retorna: 200
+<html><body><h1>It works!</h1></body></html>
+
+
+La web extra a 172.22.2.2 retorna: 200
+http://172.22.2.2/welcome.html
+{'Date': 'Fri, 18 Mar 2022 12:39:34 GMT', 'Server': 'Apache/2.4.53 (Unix)', 'Last-Modified': 'Thu, 17 Mar 2022 19:02:52 GMT', 'ETag': '"4b-5da6ead482f00"', 'Accept-Ranges': 'bytes', 'Content-Length': '75', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'text/html'}
+Aquest fitxer html serveix per fer proves al laboratori de virtualitzacio.
+

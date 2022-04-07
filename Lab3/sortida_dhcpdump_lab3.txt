@@ -1,0 +1,250 @@
+  TIME: 2022-03-30 19:27:02.005
+    IP: 0.0.0.0 (f2:7f:89:a4:c3:96) > 255.255.255.255 (ff:ff:ff:ff:ff:ff)
+    OP: 1 (BOOTPREQUEST)
+ HTYPE: 1 (Ethernet)
+  HLEN: 6
+  HOPS: 0
+   XID: dc87cd71
+  SECS: 0
+ FLAGS: 0
+CIADDR: 0.0.0.0
+YIADDR: 0.0.0.0
+SIADDR: 0.0.0.0
+GIADDR: 0.0.0.0
+CHADDR: f2:7f:89:a4:c3:96:00:00:00:00:00:00:00:00:00:00
+ SNAME: .
+ FNAME: .
+OPTION:  53 (  1) DHCP message type         1 (DHCPDISCOVER)
+OPTION:  50 (  4) Request IP address        172.22.2.8
+OPTION:  12 (  7) Host name                 client1
+OPTION:  55 ( 13) Parameter Request List      1 (Subnet mask)
+					     28 (Broadcast address)
+					      2 (Time offset)
+					      3 (Routers)
+					     15 (Domainname)
+					      6 (DNS server)
+					    119 (Domain Search)
+					     12 (Host name)
+					     44 (NetBIOS name server)
+					     47 (NetBIOS scope)
+					     26 (Interface MTU)
+					    121 (Classless Static Route)
+					     42 (NTP servers)
+					    
+OPTION:  61 ( 19) Client-identifier         ff:89:a4:c3:96:00:01:00:01:29:b6:64:d2:e2:07:a2:ad:02:41
+---------------------------------------------------------------------------
+
+  TIME: 2022-03-30 19:27:02.939
+    IP: 172.22.2.126 (1e:84:c4:9e:bb:d9) > 172.22.2.8 (f2:7f:89:a4:c3:96)
+    OP: 2 (BOOTPREPLY)
+ HTYPE: 1 (Ethernet)
+  HLEN: 6
+  HOPS: 0
+   XID: dc87cd71
+  SECS: 0
+ FLAGS: 0
+CIADDR: 0.0.0.0
+YIADDR: 172.22.2.8
+SIADDR: 0.0.0.0
+GIADDR: 0.0.0.0
+CHADDR: f2:7f:89:a4:c3:96:00:00:00:00:00:00:00:00:00:00
+ SNAME: .
+ FNAME: .
+OPTION:  53 (  1) DHCP message type         2 (DHCPOFFER)
+OPTION:  54 (  4) Server identifier         172.22.2.126
+OPTION:  51 (  4) IP address leasetime      600 (10m)
+OPTION:   1 (  4) Subnet mask               255.255.255.128
+OPTION:  28 (  4) Broadcast address         172.22.2.127
+OPTION:   3 (  4) Routers                   172.22.2.1
+OPTION:  15 ( 11) Domainname                example.org
+OPTION:   6 (  4) DNS server                172.22.2.1
+---------------------------------------------------------------------------
+
+  TIME: 2022-03-30 19:27:02.939
+    IP: 0.0.0.0 (f2:7f:89:a4:c3:96) > 255.255.255.255 (ff:ff:ff:ff:ff:ff)
+    OP: 1 (BOOTPREQUEST)
+ HTYPE: 1 (Ethernet)
+  HLEN: 6
+  HOPS: 0
+   XID: dc87cd71
+  SECS: 0
+ FLAGS: 0
+CIADDR: 0.0.0.0
+YIADDR: 0.0.0.0
+SIADDR: 0.0.0.0
+GIADDR: 0.0.0.0
+CHADDR: f2:7f:89:a4:c3:96:00:00:00:00:00:00:00:00:00:00
+ SNAME: .
+ FNAME: .
+OPTION:  53 (  1) DHCP message type         3 (DHCPREQUEST)
+OPTION:  54 (  4) Server identifier         172.22.2.126
+OPTION:  50 (  4) Request IP address        172.22.2.8
+OPTION:  12 (  7) Host name                 client1
+OPTION:  55 ( 13) Parameter Request List      1 (Subnet mask)
+					     28 (Broadcast address)
+					      2 (Time offset)
+					      3 (Routers)
+					     15 (Domainname)
+					      6 (DNS server)
+					    119 (Domain Search)
+					     12 (Host name)
+					     44 (NetBIOS name server)
+					     47 (NetBIOS scope)
+					     26 (Interface MTU)
+					    121 (Classless Static Route)
+					     42 (NTP servers)
+					    
+OPTION:  61 ( 19) Client-identifier         ff:89:a4:c3:96:00:01:00:01:29:b6:64:d2:e2:07:a2:ad:02:41
+---------------------------------------------------------------------------
+
+  TIME: 2022-03-30 19:27:02.939
+    IP: 172.22.2.126 (1e:84:c4:9e:bb:d9) > 172.22.2.8 (f2:7f:89:a4:c3:96)
+    OP: 2 (BOOTPREPLY)
+ HTYPE: 1 (Ethernet)
+  HLEN: 6
+  HOPS: 0
+   XID: dc87cd71
+  SECS: 0
+ FLAGS: 0
+CIADDR: 0.0.0.0
+YIADDR: 172.22.2.8
+SIADDR: 0.0.0.0
+GIADDR: 0.0.0.0
+CHADDR: f2:7f:89:a4:c3:96:00:00:00:00:00:00:00:00:00:00
+ SNAME: .
+ FNAME: .
+OPTION:  53 (  1) DHCP message type         5 (DHCPACK)
+OPTION:  54 (  4) Server identifier         172.22.2.126
+OPTION:  51 (  4) IP address leasetime      600 (10m)
+OPTION:   1 (  4) Subnet mask               255.255.255.128
+OPTION:  28 (  4) Broadcast address         172.22.2.127
+OPTION:   3 (  4) Routers                   172.22.2.1
+OPTION:  15 ( 11) Domainname                example.org
+OPTION:   6 (  4) DNS server                172.22.2.1
+---------------------------------------------------------------------------
+
+  TIME: 2022-03-30 19:27:07.740
+    IP: 0.0.0.0 (2e:7c:72:4f:b0:91) > 255.255.255.255 (ff:ff:ff:ff:ff:ff)
+    OP: 1 (BOOTPREQUEST)
+ HTYPE: 1 (Ethernet)
+  HLEN: 6
+  HOPS: 0
+   XID: de859d0e
+  SECS: 0
+ FLAGS: 0
+CIADDR: 0.0.0.0
+YIADDR: 0.0.0.0
+SIADDR: 0.0.0.0
+GIADDR: 0.0.0.0
+CHADDR: 2e:7c:72:4f:b0:91:00:00:00:00:00:00:00:00:00:00
+ SNAME: .
+ FNAME: .
+OPTION:  53 (  1) DHCP message type         1 (DHCPDISCOVER)
+OPTION:  50 (  4) Request IP address        172.22.2.9
+OPTION:  12 (  7) Host name                 client2
+OPTION:  55 ( 13) Parameter Request List      1 (Subnet mask)
+					     28 (Broadcast address)
+					      2 (Time offset)
+					      3 (Routers)
+					     15 (Domainname)
+					      6 (DNS server)
+					    119 (Domain Search)
+					     12 (Host name)
+					     44 (NetBIOS name server)
+					     47 (NetBIOS scope)
+					     26 (Interface MTU)
+					    121 (Classless Static Route)
+					     42 (NTP servers)
+					    
+OPTION:  61 ( 19) Client-identifier         ff:72:4f:b0:91:00:01:00:01:29:b6:64:d2:e2:07:a2:ad:02:41
+---------------------------------------------------------------------------
+
+  TIME: 2022-03-30 19:27:08.779
+    IP: 172.22.2.126 (1e:84:c4:9e:bb:d9) > 172.22.2.9 (2e:7c:72:4f:b0:91)
+    OP: 2 (BOOTPREPLY)
+ HTYPE: 1 (Ethernet)
+  HLEN: 6
+  HOPS: 0
+   XID: de859d0e
+  SECS: 0
+ FLAGS: 0
+CIADDR: 0.0.0.0
+YIADDR: 172.22.2.9
+SIADDR: 0.0.0.0
+GIADDR: 0.0.0.0
+CHADDR: 2e:7c:72:4f:b0:91:00:00:00:00:00:00:00:00:00:00
+ SNAME: .
+ FNAME: .
+OPTION:  53 (  1) DHCP message type         2 (DHCPOFFER)
+OPTION:  54 (  4) Server identifier         172.22.2.126
+OPTION:  51 (  4) IP address leasetime      600 (10m)
+OPTION:   1 (  4) Subnet mask               255.255.255.128
+OPTION:  28 (  4) Broadcast address         172.22.2.127
+OPTION:   3 (  4) Routers                   172.22.2.1
+OPTION:  15 ( 11) Domainname                example.org
+OPTION:   6 (  4) DNS server                172.22.2.1
+---------------------------------------------------------------------------
+
+  TIME: 2022-03-30 19:27:08.779
+    IP: 0.0.0.0 (2e:7c:72:4f:b0:91) > 255.255.255.255 (ff:ff:ff:ff:ff:ff)
+    OP: 1 (BOOTPREQUEST)
+ HTYPE: 1 (Ethernet)
+  HLEN: 6
+  HOPS: 0
+   XID: de859d0e
+  SECS: 0
+ FLAGS: 0
+CIADDR: 0.0.0.0
+YIADDR: 0.0.0.0
+SIADDR: 0.0.0.0
+GIADDR: 0.0.0.0
+CHADDR: 2e:7c:72:4f:b0:91:00:00:00:00:00:00:00:00:00:00
+ SNAME: .
+ FNAME: .
+OPTION:  53 (  1) DHCP message type         3 (DHCPREQUEST)
+OPTION:  54 (  4) Server identifier         172.22.2.126
+OPTION:  50 (  4) Request IP address        172.22.2.9
+OPTION:  12 (  7) Host name                 client2
+OPTION:  55 ( 13) Parameter Request List      1 (Subnet mask)
+					     28 (Broadcast address)
+					      2 (Time offset)
+					      3 (Routers)
+					     15 (Domainname)
+					      6 (DNS server)
+					    119 (Domain Search)
+					     12 (Host name)
+					     44 (NetBIOS name server)
+					     47 (NetBIOS scope)
+					     26 (Interface MTU)
+					    121 (Classless Static Route)
+					     42 (NTP servers)
+					    
+OPTION:  61 ( 19) Client-identifier         ff:72:4f:b0:91:00:01:00:01:29:b6:64:d2:e2:07:a2:ad:02:41
+---------------------------------------------------------------------------
+
+  TIME: 2022-03-30 19:27:08.779
+    IP: 172.22.2.126 (1e:84:c4:9e:bb:d9) > 172.22.2.9 (2e:7c:72:4f:b0:91)
+    OP: 2 (BOOTPREPLY)
+ HTYPE: 1 (Ethernet)
+  HLEN: 6
+  HOPS: 0
+   XID: de859d0e
+  SECS: 0
+ FLAGS: 0
+CIADDR: 0.0.0.0
+YIADDR: 172.22.2.9
+SIADDR: 0.0.0.0
+GIADDR: 0.0.0.0
+CHADDR: 2e:7c:72:4f:b0:91:00:00:00:00:00:00:00:00:00:00
+ SNAME: .
+ FNAME: .
+OPTION:  53 (  1) DHCP message type         5 (DHCPACK)
+OPTION:  54 (  4) Server identifier         172.22.2.126
+OPTION:  51 (  4) IP address leasetime      600 (10m)
+OPTION:   1 (  4) Subnet mask               255.255.255.128
+OPTION:  28 (  4) Broadcast address         172.22.2.127
+OPTION:   3 (  4) Routers                   172.22.2.1
+OPTION:  15 ( 11) Domainname                example.org
+OPTION:   6 (  4) DNS server                172.22.2.1
+---------------------------------------------------------------------------
+

@@ -1,0 +1,64 @@
+dt. de març 15 19:11:10 UTC 2022
+
+net.ipv4.ip_forward = 1
+
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+11: eth0@if12: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+    link/ether 32:1f:28:d4:89:82 brd ff:ff:ff:ff:ff:ff link-netnsid 0
+    inet 10.0.2.16/24 brd 10.0.2.255 scope global dynamic eth0
+       valid_lft 81964sec preferred_lft 81964sec
+    inet6 fe80::301f:28ff:fed4:8982/64 scope link 
+       valid_lft forever preferred_lft forever
+13: eth1@if14: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+    link/ether ea:9f:a5:64:7e:67 brd ff:ff:ff:ff:ff:ff link-netnsid 0
+    inet 192.0.2.17/28 brd 192.0.2.31 scope global eth1
+       valid_lft forever preferred_lft forever
+    inet6 fe80::e89f:a5ff:fe64:7e67/64 scope link 
+       valid_lft forever preferred_lft forever
+
+default via 10.0.2.2 dev eth0 
+10.0.2.0/24 dev eth0 proto kernel scope link src 10.0.2.16 
+192.0.2.16/28 dev eth1 proto kernel scope link src 192.0.2.17 
+
+
+ifquery: unknown interface eth1
+
+PING 10.0.2.2 (10.0.2.2) 56(84) bytes of data.
+64 bytes from 10.0.2.2: icmp_seq=1 ttl=64 time=4.94 ms
+64 bytes from 10.0.2.2: icmp_seq=2 ttl=64 time=0.909 ms
+64 bytes from 10.0.2.2: icmp_seq=3 ttl=64 time=0.809 ms
+
+--- 10.0.2.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 8ms
+rtt min/avg/max/mdev = 0.809/2.219/4.941/1.925 ms
+
+PING server (192.0.2.24) 56(84) bytes of data.
+64 bytes from server (192.0.2.24): icmp_seq=1 ttl=64 time=0.185 ms
+64 bytes from server (192.0.2.24): icmp_seq=2 ttl=64 time=0.102 ms
+64 bytes from server (192.0.2.24): icmp_seq=3 ttl=64 time=0.165 ms
+
+--- server ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 30ms
+rtt min/avg/max/mdev = 0.102/0.150/0.185/0.038 ms
+
+PING 1.1.1.1 (1.1.1.1) 56(84) bytes of data.
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=60 time=6.79 ms
+
+--- 1.1.1.1 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 6.785/6.785/6.785/0.000 ms
+
+Starting Nmap 7.70 ( https://nmap.org ) at 2022-03-15 19:11 UTC
+Nmap scan report for server (192.0.2.24)
+Host is up (0.000082s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: 12:29:E5:7C:00:91 (Unknown)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.65 seconds

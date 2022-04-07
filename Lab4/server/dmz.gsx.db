@@ -1,0 +1,19 @@
+; file "dmz.gsx.db";
+$TTL	604800
+@	IN	SOA	ns.dmz.gsx.	root.ns.dmz.gsx. (
+					1		; Serial
+					604800		; Refresh
+					86400		; Retry
+					2419200		; Expire
+					604800 )	; Negative Cache TTL
+;
+@	IN	NS	ns.dmz.gsx.
+	IN	MX	10 correu.dmz.gsx.
+ns	IN	A	192.0.2.24
+
+; list ALL other computers
+router	IN	A	192.0.2.17
+server	IN	A	192.0.2.24
+correu	IN	A	192.0.2.25
+smtp	IN	CNAME	correu
+pop3	IN	CNAME	correu

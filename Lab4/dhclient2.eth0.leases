@@ -1,0 +1,166 @@
+default-duid "\000\001\000\001)\266d\322\342\007\242\255\002A";
+lease {
+  interface "eth0";
+  fixed-address 172.22.2.15;
+  option subnet-mask 255.255.255.128;
+  option routers 172.22.2.1;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.0.2.24;
+  option dhcp-server-identifier 172.22.2.126;
+  option broadcast-address 172.22.2.127;
+  option domain-name "intranet.gsx";
+  renew 4 2022/04/07 11:04:21;
+  rebind 4 2022/04/07 11:04:21;
+  expire 4 2022/04/07 11:04:21;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.22.2.15;
+  option subnet-mask 255.255.255.128;
+  option routers 172.22.2.1;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.0.2.24;
+  option dhcp-server-identifier 172.22.2.126;
+  option broadcast-address 172.22.2.127;
+  option domain-name "intranet.gsx";
+  renew 4 2022/04/07 11:09:17;
+  rebind 4 2022/04/07 11:13:07;
+  expire 4 2022/04/07 11:14:22;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.22.2.15;
+  option subnet-mask 255.255.255.128;
+  option routers 172.22.2.1;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.0.2.24;
+  option dhcp-server-identifier 172.22.2.126;
+  option broadcast-address 172.22.2.127;
+  option domain-name "intranet.gsx";
+  renew 4 2022/04/07 11:13:32;
+  rebind 4 2022/04/07 11:18:02;
+  expire 4 2022/04/07 11:19:17;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.22.2.15;
+  option subnet-mask 255.255.255.128;
+  option routers 172.22.2.1;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.0.2.24;
+  option dhcp-server-identifier 172.22.2.126;
+  option broadcast-address 172.22.2.127;
+  option domain-name "intranet.gsx";
+  renew 4 2022/04/07 11:18:31;
+  rebind 4 2022/04/07 11:22:17;
+  expire 4 2022/04/07 11:23:32;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.22.2.15;
+  option subnet-mask 255.255.255.128;
+  option routers 172.22.2.1;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.0.2.24;
+  option dhcp-server-identifier 172.22.2.126;
+  option broadcast-address 172.22.2.127;
+  option domain-name "intranet.gsx";
+  renew 4 2022/04/07 11:23:01;
+  rebind 4 2022/04/07 11:27:16;
+  expire 4 2022/04/07 11:28:31;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.22.2.15;
+  option subnet-mask 255.255.255.128;
+  option routers 172.22.2.1;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.0.2.24;
+  option dhcp-server-identifier 172.22.2.126;
+  option broadcast-address 172.22.2.127;
+  option domain-name "intranet.gsx";
+  renew 4 2022/04/07 11:27:05;
+  rebind 4 2022/04/07 11:31:46;
+  expire 4 2022/04/07 11:33:01;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.22.2.15;
+  option subnet-mask 255.255.255.128;
+  option routers 172.22.2.1;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.0.2.24;
+  option dhcp-server-identifier 172.22.2.126;
+  option broadcast-address 172.22.2.127;
+  option domain-name "intranet.gsx";
+  renew 4 2022/04/07 11:31:53;
+  rebind 4 2022/04/07 11:35:51;
+  expire 4 2022/04/07 11:37:06;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.22.2.15;
+  option subnet-mask 255.255.255.128;
+  option routers 172.22.2.1;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.0.2.24;
+  option dhcp-server-identifier 172.22.2.126;
+  option broadcast-address 172.22.2.127;
+  option domain-name "intranet.gsx";
+  renew 4 2022/04/07 11:36:03;
+  rebind 4 2022/04/07 11:40:38;
+  expire 4 2022/04/07 11:41:53;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.22.2.15;
+  option subnet-mask 255.255.255.128;
+  option routers 172.22.2.1;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.0.2.24;
+  option dhcp-server-identifier 172.22.2.126;
+  option broadcast-address 172.22.2.127;
+  option domain-name "intranet.gsx";
+  renew 4 2022/04/07 11:40:00;
+  rebind 4 2022/04/07 11:44:49;
+  expire 4 2022/04/07 11:46:04;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.22.2.15;
+  option subnet-mask 255.255.255.128;
+  option routers 172.22.2.1;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.0.2.24;
+  option dhcp-server-identifier 172.22.2.126;
+  option broadcast-address 172.22.2.127;
+  option domain-name "intranet.gsx";
+  renew 4 2022/04/07 11:44:08;
+  rebind 4 2022/04/07 11:48:45;
+  expire 4 2022/04/07 11:50:00;
+}
+lease {
+  interface "eth0";
+  fixed-address 172.22.2.15;
+  option subnet-mask 255.255.255.128;
+  option routers 172.22.2.1;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.0.2.24;
+  option dhcp-server-identifier 172.22.2.126;
+  option broadcast-address 172.22.2.127;
+  option domain-name "intranet.gsx";
+  renew 4 2022/04/07 11:48:34;
+  rebind 4 2022/04/07 11:52:53;
+  expire 4 2022/04/07 11:54:08;
+}
