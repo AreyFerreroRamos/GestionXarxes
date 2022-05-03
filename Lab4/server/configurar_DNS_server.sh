@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Autor: Arey Ferrero Ramos.
-# Data: 6 d'abril del 2022. Versió: 1.
+# Data: 6 d'abril del 2022. Versió: 2.
 # Descripció: Creació del servei DNS.
 
 	#=== Es comprova si es tenen els paquets bind9, bind9-doc i dnsutils i, en cas negatiu, s'instal·len. ===#
@@ -25,18 +25,18 @@ then
 fi
 
 	#=== Es configura el servidor DNS. S'edita el fitxer /etc/bind/named.conf.local . ===#
-cp named.conf.local /etc/bind
+cp -p named.conf.local /etc/bind
 
 	#=== Es configura el servidor DNS. S'edita el fitxer d'opcions. ===#
-cp named.conf.options /etc/bind	
+cp -p named.conf.options /etc/bind	
 
 	#=== Es configuren els fitxers de zona. ===#
-cp intranet.gsx.db /etc/bind
-cp dmz.gsx.db /etc/bind
+cp -p intranet.gsx.db /etc/bind
+cp -p dmz.gsx.db /etc/bind
 
 	#=== Es configuren els fitxers de zona inversa. ===#
-cp db.gsx.intranet /etc/bind
-cp db.gsx.dmz /etc/bind
+cp -p db.gsx.intranet /etc/bind
+cp -p db.gsx.dmz /etc/bind
 
 	#=== Es comprova que la sintaxi és correcta. ===#
 /sbin/named-checkconf -z /etc/bind/named.conf.local
