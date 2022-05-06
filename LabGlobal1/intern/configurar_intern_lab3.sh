@@ -42,7 +42,7 @@ fi
 
 	#=== Es configura el fitxer /etc/default/isc-dhcp-server per a que escolti la eth0. ===#
 # Cal afegir la línia 'INTERFACESv4=\"eth0\"\nINTERFACESv6=\"\"' al fitxer isc-dhcp-server.
-cp -p isc-dhcp-server /etc/default			# ¿¿¿¿Ha de estar instal·lat el servidor per a que existeixi el fitxer????
+# cp -p isc-dhcp-server /etc/default
 
 	#=== Es configura una subnet (amb les IPs de la nostra classe B) al fitxer /etc/dhcp/dhcpd.conf. Després es reengega el servei. ===#
 # Cal afegir les línies
