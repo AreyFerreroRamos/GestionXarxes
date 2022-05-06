@@ -11,7 +11,7 @@ ifdown eth0
 #	iface lo inet loopback
 #
 #	auto eth0
-#	iface eth0 inet static
+#	iface eth0 inet static				¿¿¿¿static o dhcp????
 #		address 192.0.2.24
 #		network 192.0.2.16
 #		netmask 255.255.255.240
@@ -25,7 +25,7 @@ ifup eth0
 
 	#=== Es resolen les IPs del router i de l'intern a un nom concret especificat en el fitxer /etc/hosts del server. Això permet establir una connexió amb les màquines utilitzant el nom en lloc de l'adreça 		IP (No hi ha DNS). ===#
 # Cal afegir la línia '192.0.2.17	router' al fitxer hosts.
-# Cal afegir la línia '172.22.2.1	intern' al fitxer hosts.
+# Cal afegir la línia '172.22.2.1	intern' al fitxer hosts.		¿¿¿¿172.22.2.1 o 172.22.2.126????
 cp -p hosts /etc
 # Si es vol validar la connexió del server amb el router utilitzant el nom assignat, es pot executar la comanda 'ping router' des del propi server.
 # Si es vol validar la connexió del server amb l'intern utilitzant el nom assignat, es pot executar la comanda 'ping intern' des del propi server.

@@ -5,7 +5,7 @@
 # Descripció: Script responsable d'executar tots els scripts de configuració del intern en l'ordre pertinent.
 
 	#=== Configuració de la xarxa i del servei dhcp. ===#
-./configurar_intern_lab3.sh
+./configurar_intern_lab4.sh
 
 	#=== Configuració del servei DNS ===#
 ./configurar_DNS_intern.sh

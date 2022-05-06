@@ -51,9 +51,10 @@ cp -p isc-dhcp-server /etc/default			# ¿¿¿¿Ha de estar instal·lat el servid
 #		option subnet-mask 255.255.255.128;
 #		option broadcast-address 172.22.2.127;
 #		option routers 172.22.2.1;
-#		option domain-name-servers 172.22.2.1;
+#		option domain-name-servers 192.0.2.24;
+#		option domain-name "intranet.gsx"
 #	}'
 # al fitxer dhcpd.conf. El servidor de noms és el router.
 cp -p dhcpd.conf /etc/dhcp
 service isc-dhcp-server restart
-# Si es vol comprovar l'estat del servei isc-dhcp-server, es pot executar la comanda 'journalctl --unit isc-dhcp-server'. La comanda llista tot l'historial d'execucions del servei, cosa que permet detectar els errors que s' hagin produït durant la configuració d'aquest.
+# Si es vol comprovar l'estat del servei isc-dhcp-server, es poden executar les comandes 'service isc-dhcp-server status' o 'journalctl --unit isc-dhcp-server'. La segona comanda llista tot l'historial d'execucions del servei, cosa que permet detectar els errors que s' hagin produït durant la configuració d'aquest.

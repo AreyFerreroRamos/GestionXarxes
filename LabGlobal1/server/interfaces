@@ -1,0 +1,10 @@
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet dhcp
+	address 192.0.2.24
+	network 192.0.2.16
+	netmask 255.255.255.240
+	broadcast 192.0.2.31
+	gateway 192.0.2.17
