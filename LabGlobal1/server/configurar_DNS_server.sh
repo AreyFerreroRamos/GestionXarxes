@@ -6,7 +6,7 @@
 
 	#=== Es comprova si es tenen els paquets bind9, bind9-doc i dnsutils i, en cas negatiu, s'instal·len. ===#
 service bind9 status
-if [ $(echo $?) -eq 4 ]
+if [ $(echo $?) -eq 3 ]
 then
 	apt install bind9
 	service bind9 status
