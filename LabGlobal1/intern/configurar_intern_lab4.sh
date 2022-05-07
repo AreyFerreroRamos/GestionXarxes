@@ -11,7 +11,7 @@ ifdown eth0
 #	iface lo inet loopback
 #
 #	auto eth0
-#	iface eth0 inet static				¿¿¿¿static o dhcp????
+#	iface eth0 inet static
 #		address 172.22.2.126
 #		network 172.22.2.0
 #		netmask 255.255.255.128
@@ -42,7 +42,7 @@ fi
 
 	#=== Es configura el fitxer /etc/default/isc-dhcp-server per a que escolti la eth0. ===#
 # Cal afegir la línia 'INTERFACESv4=\"eth0\"\nINTERFACESv6=\"\"' al fitxer isc-dhcp-server.
-# cp -p isc-dhcp-server /etc/default
+cp -p isc-dhcp-server /etc/default
 
 	#=== Es configura una subnet (amb les IPs de la nostra classe B) al fitxer /etc/dhcp/dhcpd.conf. Després es reengega el servei. ===#
 # Cal afegir les línies

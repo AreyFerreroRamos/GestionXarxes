@@ -2,7 +2,7 @@ auto lo
 iface lo inet loopback
 
 auto eth0
-iface eth0 inet dhcp
+iface eth0 inet static
 	address 192.0.2.24
 	network 192.0.2.16
 	netmask 255.255.255.240
