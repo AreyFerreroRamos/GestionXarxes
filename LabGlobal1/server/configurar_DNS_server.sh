@@ -6,10 +6,9 @@
 
 	#=== Es comprova si es tenen els paquets bind9, bind9-doc i dnsutils i, en cas negatiu, s'instal·len. ===#
 service bind9 status
-if [ $(echo $?) -eq 3 ]
+if [ $(echo $?) -eq 4 ]
 then
 	apt install bind9
-	service bind9 status
 fi
 dpkg -l bind9-doc
 if [ $(echo $?) -eq 4 ]
@@ -47,5 +46,7 @@ cp -p db.gsx.dmz /etc/bind
 /sbin/named-checkzone 22.172.in-addr.arpa db.gsx.intranet
 	
 	#=== Es reengega el dimoni. ===#
+chmod g+x /etc/bind
+service bind9 enable
 service bind9 restart
 service bind9 status
