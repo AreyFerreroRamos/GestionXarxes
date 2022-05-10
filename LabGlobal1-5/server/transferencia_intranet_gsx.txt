@@ -1,0 +1,19 @@
+
+; <<>> DiG 9.11.5-P4-5.1+deb10u7-Debian <<>> intranet.gsx.db
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: REFUSED, id: 55062
+;; flags: qr rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+;; WARNING: recursion requested but not available
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+; COOKIE: 05d700c893e88409cc5169be6279927c1067349c73f540b1 (good)
+;; QUESTION SECTION:
+;intranet.gsx.db.		IN	A
+
+;; Query time: 46 msec
+;; SERVER: 193.144.16.4#53(193.144.16.4)
+;; WHEN: dt. de maig 10 00:15:24 UTC 2022
+;; MSG SIZE  rcvd: 72
+

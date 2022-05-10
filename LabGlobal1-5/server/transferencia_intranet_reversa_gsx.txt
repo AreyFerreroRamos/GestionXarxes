@@ -1,0 +1,21 @@
+
+; <<>> DiG 9.11.5-P4-5.1+deb10u7-Debian <<>> db.gsx.intranet
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 42608
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+; COOKIE: 7dae8707a5d5b797a2635c93627960aa5e4600d2effee992 (good)
+;; QUESTION SECTION:
+;db.gsx.intranet.		IN	A
+
+;; AUTHORITY SECTION:
+.			10800	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2022050901 1800 900 604800 86400
+
+;; Query time: 18 msec
+;; SERVER: 10.45.1.2#53(10.45.1.2)
+;; WHEN: dl. de maig 09 20:29:01 UTC 2022
+;; MSG SIZE  rcvd: 147
+

@@ -1,0 +1,29 @@
+#!/bin/sh 
+# Actualitza el hostname rebut per DHCP
+
+# Do not update hostname for virtual machine IP assignments 
+if [ "$interface" != "eth0" ]
+then 
+    return 
+fi 
+case $reason in
+	BOUND|RENEW|REBIND|REBOOT)
+		;;
+	*)
+		return
+		;;
+esac
+
+echo
+echo dhclient-exit-hooks.d/actualitza_nom debug:
+echo Nova IP= $new_ip_address
+echo Nou nom= $new_host_name
+
+# fer l'actualització del nom efectiva:
+echo ${new_host_name}.${new_domain_name} > /etc/hostname 
+hostname ${new_host_name} 
+
+echo "Comprovant si el DNS @$new_domain_name_servers ha actualitzat els noms:\n"
+host ${new_host_name}.${new_domain_name}
+host $new_ip_address
+echo
