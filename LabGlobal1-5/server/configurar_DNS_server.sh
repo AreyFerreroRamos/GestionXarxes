@@ -23,7 +23,7 @@ then
 	dpkg -l dnsutils
 fi
 
-chmod g+x /etc/bind
+chmod g+w /etc/bind
 
 	#=== Es configura el servidor DNS. S'edita el fitxer /etc/bind/named.conf.local . ===#
 cp -p named.conf.local /etc/bind
