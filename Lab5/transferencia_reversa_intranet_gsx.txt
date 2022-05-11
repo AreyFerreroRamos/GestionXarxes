@@ -1,0 +1,19 @@
+
+; <<>> DiG 9.11.5-P4-5.1+deb10u7-Debian <<>> 22.172.in-addr.arpa AXFR
+;; global options: +cmd
+22.172.in-addr.arpa.	604800	IN	SOA	ns.intranet.gsx. root.ns.intranet.gsx. 7 604800 86400 2419200 604800
+22.172.in-addr.arpa.	604800	IN	NS	ns.intranet.gsx.
+1.2.22.172.in-addr.arpa. 604800	IN	PTR	router.intranet.gsx.
+126.2.22.172.in-addr.arpa. 604800 IN	PTR	dhcp.intranet.gsx.
+126.2.22.172.in-addr.arpa. 604800 IN	PTR	intern.intranet.gsx.
+2.2.22.172.in-addr.arpa. 300	IN	PTR	client-2.2.intranet.gsx.
+25.2.22.172.in-addr.arpa. 604800 IN	PTR	pop3.intranet.gsx.
+25.2.22.172.in-addr.arpa. 604800 IN	PTR	smtp.intranet.gsx.
+25.2.22.172.in-addr.arpa. 604800 IN	PTR	correu.intranet.gsx.
+3.2.22.172.in-addr.arpa. 300	IN	PTR	client-2.3.intranet.gsx.
+22.172.in-addr.arpa.	604800	IN	SOA	ns.intranet.gsx. root.ns.intranet.gsx. 7 604800 86400 2419200 604800
+;; Query time: 0 msec
+;; SERVER: 127.0.0.1#53(127.0.0.1)
+;; WHEN: dt. de maig 10 20:17:40 UTC 2022
+;; XFR size: 11 records (messages 1, bytes 367)
+

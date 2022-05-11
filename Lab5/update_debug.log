@@ -1,0 +1,22 @@
+10-May-2022 20:06:09.410 update: info: client @0x7f6e5c0d56f0 172.22.2.126#48491/key clau_dhcpdns: updating zone 'intranet.gsx/IN': adding an RR at 'client1.intranet.gsx' A 172.22.2.2
+10-May-2022 20:06:09.410 update: info: client @0x7f6e5c0d56f0 172.22.2.126#48491/key clau_dhcpdns: updating zone 'intranet.gsx/IN': adding an RR at 'client1.intranet.gsx' TXT "3142ddcf72d53ac58881232497e66aba2f"
+10-May-2022 20:06:09.414 update: info: client @0x7f6e5c4f1c30 172.22.2.126#47595/key clau_dhcpdns: updating zone '22.172.in-addr.arpa/IN': deleting rrset at '2.2.22.172.in-addr.arpa' PTR
+10-May-2022 20:06:09.414 update: info: client @0x7f6e5c4f1c30 172.22.2.126#47595/key clau_dhcpdns: updating zone '22.172.in-addr.arpa/IN': adding an RR at '2.2.22.172.in-addr.arpa' PTR client1.intranet.gsx.
+10-May-2022 20:06:10.455 update: info: client @0x7f6e5c504af0 172.22.2.126#43645/key clau_dhcpdns: updating zone 'intranet.gsx/IN': deleting an RR at client1.intranet.gsx A
+10-May-2022 20:06:10.458 update: info: client @0x7f6e5c0d56f0 172.22.2.126#49527/key clau_dhcpdns: updating zone 'intranet.gsx/IN': deleting an RR at client1.intranet.gsx TXT
+10-May-2022 20:06:10.460 update: info: client @0x7f6e5c4f1c30 172.22.2.126#37819/key clau_dhcpdns: updating zone '22.172.in-addr.arpa/IN': deleting rrset at '2.2.22.172.in-addr.arpa' PTR
+10-May-2022 20:06:10.482 update: info: client @0x7f6e5c504af0 172.22.2.126#44049/key clau_dhcpdns: updating zone 'intranet.gsx/IN': adding an RR at 'client-2.2.intranet.gsx' A 172.22.2.2
+10-May-2022 20:06:10.482 update: info: client @0x7f6e5c504af0 172.22.2.126#44049/key clau_dhcpdns: updating zone 'intranet.gsx/IN': adding an RR at 'client-2.2.intranet.gsx' TXT "3142ddcf72d53ac58881232497e66aba2f"
+10-May-2022 20:06:10.485 update: info: client @0x7f6e5c0d56f0 172.22.2.126#50679/key clau_dhcpdns: updating zone '22.172.in-addr.arpa/IN': deleting rrset at '2.2.22.172.in-addr.arpa' PTR
+10-May-2022 20:06:10.485 update: info: client @0x7f6e5c0d56f0 172.22.2.126#50679/key clau_dhcpdns: updating zone '22.172.in-addr.arpa/IN': adding an RR at '2.2.22.172.in-addr.arpa' PTR client-2.2.intranet.gsx.
+10-May-2022 20:06:25.480 update: info: client @0x7f6e5c4f1c30 172.22.2.126#55657/key clau_dhcpdns: updating zone 'intranet.gsx/IN': adding an RR at 'client2.intranet.gsx' A 172.22.2.3
+10-May-2022 20:06:25.480 update: info: client @0x7f6e5c4f1c30 172.22.2.126#55657/key clau_dhcpdns: updating zone 'intranet.gsx/IN': adding an RR at 'client2.intranet.gsx' TXT "31e3b094baa8da6282365b51e03630b8a1"
+10-May-2022 20:06:25.483 update: info: client @0x7f6e5c504af0 172.22.2.126#36659/key clau_dhcpdns: updating zone '22.172.in-addr.arpa/IN': deleting rrset at '3.2.22.172.in-addr.arpa' PTR
+10-May-2022 20:06:25.483 update: info: client @0x7f6e5c504af0 172.22.2.126#36659/key clau_dhcpdns: updating zone '22.172.in-addr.arpa/IN': adding an RR at '3.2.22.172.in-addr.arpa' PTR client2.intranet.gsx.
+10-May-2022 20:06:26.528 update: info: client @0x7f6e5c0d56f0 172.22.2.126#46405/key clau_dhcpdns: updating zone 'intranet.gsx/IN': deleting an RR at client2.intranet.gsx A
+10-May-2022 20:06:26.530 update: info: client @0x7f6e5c4f1c30 172.22.2.126#47295/key clau_dhcpdns: updating zone 'intranet.gsx/IN': deleting an RR at client2.intranet.gsx TXT
+10-May-2022 20:06:26.532 update: info: client @0x7f6e5c504af0 172.22.2.126#35949/key clau_dhcpdns: updating zone '22.172.in-addr.arpa/IN': deleting rrset at '3.2.22.172.in-addr.arpa' PTR
+10-May-2022 20:06:26.555 update: info: client @0x7f6e5c0d56f0 172.22.2.126#43899/key clau_dhcpdns: updating zone 'intranet.gsx/IN': adding an RR at 'client-2.3.intranet.gsx' A 172.22.2.3
+10-May-2022 20:06:26.555 update: info: client @0x7f6e5c0d56f0 172.22.2.126#43899/key clau_dhcpdns: updating zone 'intranet.gsx/IN': adding an RR at 'client-2.3.intranet.gsx' TXT "31e3b094baa8da6282365b51e03630b8a1"
+10-May-2022 20:06:26.557 update: info: client @0x7f6e5c4f1c30 172.22.2.126#49211/key clau_dhcpdns: updating zone '22.172.in-addr.arpa/IN': deleting rrset at '3.2.22.172.in-addr.arpa' PTR
+10-May-2022 20:06:26.557 update: info: client @0x7f6e5c4f1c30 172.22.2.126#49211/key clau_dhcpdns: updating zone '22.172.in-addr.arpa/IN': adding an RR at '3.2.22.172.in-addr.arpa' PTR client-2.3.intranet.gsx.

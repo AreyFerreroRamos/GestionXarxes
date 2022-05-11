@@ -1,0 +1,23 @@
+
+; <<>> DiG 9.11.5-P4-5.1+deb10u7-Debian <<>> intranet.gsx AXFR
+;; global options: +cmd
+intranet.gsx.		604800	IN	SOA	ns.intranet.gsx. root.ns.intranet.gsx. 9 604800 86400 2419200 604800
+intranet.gsx.		604800	IN	NS	ns.intranet.gsx.
+intranet.gsx.		604800	IN	MX	10 correu.intranet.gsx.
+client-2.2.intranet.gsx. 300	IN	TXT	"3142ddcf72d53ac58881232497e66aba2f"
+client-2.2.intranet.gsx. 300	IN	A	172.22.2.2
+client-2.3.intranet.gsx. 300	IN	TXT	"31e3b094baa8da6282365b51e03630b8a1"
+client-2.3.intranet.gsx. 300	IN	A	172.22.2.3
+correu.intranet.gsx.	604800	IN	A	172.22.2.25
+dhcp.intranet.gsx.	604800	IN	A	172.22.2.126
+intern.intranet.gsx.	604800	IN	A	172.22.2.126
+ns.intranet.gsx.	604800	IN	A	192.0.2.24
+pop3.intranet.gsx.	604800	IN	CNAME	correu.intranet.gsx.
+router.intranet.gsx.	604800	IN	A	172.22.2.1
+smtp.intranet.gsx.	604800	IN	CNAME	correu.intranet.gsx.
+intranet.gsx.		604800	IN	SOA	ns.intranet.gsx. root.ns.intranet.gsx. 9 604800 86400 2419200 604800
+;; Query time: 0 msec
+;; SERVER: 127.0.0.1#53(127.0.0.1)
+;; WHEN: dt. de maig 10 20:17:02 UTC 2022
+;; XFR size: 15 records (messages 1, bytes 471)
+

@@ -23,7 +23,11 @@ then
 	dpkg -l dnsutils
 fi
 
+	#=== Es donen permissos d'escriptura sobre el directori /etc/bind als usuaris que pertanyen al grup bind. ===#
 chmod g+w /etc/bind
+
+	#=== S'edita el fitxer resolv.conf . ===#
+cp -p resolv.conf /etc
 
 	#=== Es configura el servidor DNS. S'edita el fitxer /etc/bind/named.conf.local . ===#
 cp -p named.conf.local /etc/bind
